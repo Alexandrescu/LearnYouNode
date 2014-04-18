@@ -1,3 +1,6 @@
+/*
+	Multiple http requests in same order as received (even if calls are async)
+*/
 http = require('http');
 bl = require('bl');
 

@@ -1,3 +1,5 @@
+/* Buffered http get */
+
 http = require('http');
 bl = require ("bl"); /* buffer list */
 
