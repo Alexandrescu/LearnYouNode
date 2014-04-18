@@ -1,3 +1,6 @@
+/*
+	This is a TCP socket listening on the second argument introduced and returning the current date.
+*/
 var net = require('net');
 
 function pad(n) { return n < 10 ? '0' + n : n; }
